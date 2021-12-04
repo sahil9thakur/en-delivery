@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>EN Delivery Inc.</title>
+  </head>
+  <body>
+    <div class="nav-wrapper">
+      <!-- <div class="grad-bar"></div> -->
+      <nav class="navbar">
+        <div class="logo">
+          <img src="/assets/EN_Delivery_Logo.png" alt="Company Logo" />
+          <span>EN Delivery<span>Inc</span></span>
+        </div>
+        <div class="menu-toggle" id="mobile-menu" onclick="menuClick()">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <script type="text/javascript">
+          function menuClick() {
+            console.log(document.getElementById('nav'))
+            document.getElementById('nav').classList.toggle('mobile-nav')
+            console.log(this)
+            document.getElementById('mobile-menu').classList.toggle('is-active')
+          }
+        </script>
+        <ul class="nav no-search" id="nav">
+          <li class="nav-item"><a href="/">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#services">Services</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-overlay">
+          <h1 class="hero-header">Courier Service For <span>Everyone</span></h1>
+          <p class="section-text">
+            With 14 years in the delivery service business and customer-centred
+            approach, EN Delivery Inc is successfully operating its courier
+            delivering services in and around Ottawa. Trustworthy, punctual,
+            safe, reliable, and friendly delivery services are our unique
+            selling proposition. 100% ‘Safe Deliveries Made’ is what EN Delivery
+            Inc strives for.
+          </p>
+          <button>Get a Free Estimate &rarr;</button>
+        </div>
+      </div>
+    </div>
+    <section class="about" id="about">
+      <div class="vector-container">
+        <img src="/assets/about-vector.svg" />
+        <img src="/assets/about-vector-1.svg" />
+        <img src="/assets/about-vector-2.svg" />
+      </div>
+      <div class="container">
+        <div class="about-content-container">
+          <h3 class="section-header">
+            Professional and reliable postal services in Ottawa
+          </h3>
+          <p class="section-text">
+            With having a team of more than twenty drivers, EN Delivery Inc
+            ensures that none of our customers is disappointed with our delivery
+            services. We offer customized delivery services tailored to the
+            needs of the customers in respect to the pricing and time of
+            delivery.
+            <br />
+            <br />
+            Open, transparent, and frequent communication is what we deliver to
+            our clients in regards to their courier’s delivery status. Our
+            strong network of team members ensures that the couriers of our
+            clients are reached to their destination on time and safely without
+            any delay. We have a strong collaboration with ATS healthcare, OMS,
+            Best Busy, Shoppers, and Pigeon Ship.
+          </p>
+          <div class="video-container">
+            <img src="/assets/video.png" alt="" />
+          </div>
+          <div class="about-grid-container">
+            <div class="about-grid">
+              <div class="about-grid-item">
+                <img src="/assets/building.svg" />
+                <h6 class="about-grid-item-header">National Capital Region</h6>
+                <p style="margin-top: 0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </div>
+              <div class="about-grid-item">
+                <img src="/assets/truck.svg" />
+                <h6 class="about-grid-item-header">Drivers</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="about-grid-item">
+                <img src="/assets/batch.svg" />
+                <h6 class="about-grid-item-header">Uniformed</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="about-grid-item">
+                <img src="/assets/hand-time.svg" />
+                <h6 class="about-grid-item-header">Delivery Options</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-grid-item">
+            <h2 class="section-header">
+              Reach your destination 100% <span> Sure and Safe</span>
+              <p class="section-text">
+                Provide pre-scheduled route deliveries to a variety of customers
+                and industries throughout western Ontario and eastern Quebec.
+                Day or night, we can route deliveries to fit your need. We
+                provide 24 hour service 7 days a week!
+              </p>
+              <button>Contact Us Now</button>
+            </h2>
+          </div>
+          <div class="contact-grid-item">
+            <img src="/assets/contact-section.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="state-art" id="state-art">
+      <div class="container">
+        <h2 class="section-header">State of Art Technology</h2>
+        <p class="section-text">
+          Do you want to enter your orders via the internet for courier services
+          in Ottawa? Call us for a login and from that point on, you can conduct
+          your transactions via the net. Online order entry eliminates the need
+          for written waybills as they are generated automatically after each
+          order is entered.
+        </p>
+      </div>
+    </div>
+    <section class="special" id="services">
+      <div class="container">
+        <h2 class="section-header">What makes us Special?</h2>
+        <p class="section-text">
+          We are a friendly delivery company having punctual and easily
+          accessible delivery services in and around Ottawa. Client-focused
+          service is our main motto for which we provide customized delivery
+          services options considering the requirements of our clients. The
+          'Same Day, Next Day, Overnight, and Multi-Drop Delivery' are the
+          different service levels we offer to our clients. To further make our
+          services reliable, fast, and accessible, we also offer 'Drop-Offs'
+          delivery.
+        </p>
+        <div class="special-grid">
+          <div class="special-grid-item">
+            <img src="/assets/immediate.svg" />
+            <p>IMMDEDIATE</p>
+          </div>
+          <div class="special-grid-item">
+            <img src="/assets/rush.svg" />
+            <p>RUSH</p>
+          </div>
+          <div class="special-grid-item">
+            <img src="/assets/sameday.svg" />
+            <p>SAMEDAY</p>
+          </div>
+          <div class="special-grid-item">
+            <img src="/assets/overnight.svg" />
+            <p>OVERNIGHT</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="customer-service" id="customer-service">
+      <div class="container">
+        <h2 class="section-header">Customer Service</h2>
+        <p class="section-text">
+          Our customer service staff’s goal is to provide exemplary client
+          service, delivered in a consistent manner, in tune with our clients’
+          requirements. Frequent and open communication between our customer
+          service representatives, drivers, and dispatchers is mandatory. Our
+          “help phone” assists in this process. Drivers are in constant contact
+          with our CSR’s to address any problems that they encounter while
+          delivering our client’s goods.Our customer service staff will be fully
+          conversant in your specific delivery directives. We are fully staffed
+          :
+        </p>
+        <span
+          ><img src="/assets/clock.svg" />Monday to Friday from 8:00 a.m. to
+          5:00 p.m.
+        </span>
+      </div>
+    </div>
+    <div class="comments" id="comments">
+      <div class="container">
+        <div id="slider">
+          <figure>
+            <div class="comment">
+              <div class="comment-header">
+                <img
+                  src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                  alt=""
+                  srcset=""
+                />
+                <h6>John Doe</h6>
+              </div>
+              <blockquote>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it.
+              </blockquote>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="clients" id="client">
+      <div class="container">
+        <h3 class="section-header">Clients We Work With</h3>
+        <div class="client-grid-container">
+          <div class="client-grid-icon">
+            <img
+              src="/assets/oms.png"
+              alt="Ontario Medical Supply logo"
+              style="width: 115px"
+            />
+          </div>
+          <div class="client-grid-icon">
+            <img src="/assets/ats.png" alt="ATS Healthcare logo" />
+          </div>
+          <div class="client-grid-icon">
+            <img
+              src="/assets/best-buy.png"
+              style="width: 100px"
+              alt="Best Buy logo"
+            />
+          </div>
+          <div class="client-grid-icon">
+            <img src="/assets/shippers.png" alt="Shoppers Drug Mart logo" />
+          </div>
+          <div class="client-grid-icon">
+            <img
+              src="/assets/pigeon-ship.jpeg"
+              alt="Pigeon Ship Logo"
+              style="width: 125px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo-container">
+            <div class="logo">
+              <img
+                src="../../assets/EN_Delivery_Logo_White.png"
+                alt="EN Delivery Logo"
+              />
+              <span>EN Delivery<span>Inc</span></span>
+            </div>
+            <p>
+              Every day is a new day for us and we work really hard to satisfy
+              our customers across the national capital region.
+            </p>
+          </div>
+          <div class="footer-links-container">
+            <h5 class="footer-header">Quick Links</h5>
+            <div class="footer-links">
+              <a href="/">Home</a>
+              <a href="#about">About our Services</a>
+              <a href="#">Blog</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+          <div class="footer-social-container">
+            <h5 class="footer-header">Get Social With Us</h5>
+            <div class="social-links">
+              <a href="tel:+16137127120"><i class="fa fa-phone"></i></a>
+              <a href="mailto:endeliveryinc.ca@gmail.com"
+                ><i class="fa fa-envelope"></i
+              ></a>
+              <a
+                href="whatsapp://send?text=Hello EN Delivery!&phone=+16137127120"
+                ><i class="fa fa-whatsapp"></i
+              ></a>
+              <!-- <a href="#"><img src="/assets/youtube.svg" /></a> -->
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="copyright">
+          &copy; endelivery.com - Ottawa's Courer Service For Everyone
+        </div>
+      </div>
+    </footer>
+    <script>
+      const navbar = document.querySelector('nav')
+      const sections = document.querySelectorAll('section')
+      const navLi = document.querySelectorAll(
+        'nav .navbar-container .nav-items .nav-link'
+      )
+      window.onscroll = function () {
+        if (window.pageYOffset > 0) {
+          navbar.classList.add('nav-active')
+        } else {
+          navbar.classList.remove('nav-active')
+        }
+        var current = ''
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop
+          if (pageYOffset >= sectionTop - 60) {
+            current = section.getAttribute('id')
+          }
+        })
+
+        navLi.forEach((li) => {
+          li.classList.remove('active')
+          if (li.classList.contains(current)) {
+            li.classList.add('active')
+          }
+        })
+      }
+    </script>
+  </body>
+</html>
